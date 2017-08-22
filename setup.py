@@ -18,6 +18,8 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
+    setup_requires=['nexus_uploader'],
+
     name='sample',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
